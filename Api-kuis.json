@@ -1,1 +1,178 @@
-
+[
+    {
+        "soal": "Apa ibu kota Indonesia?",
+        "jawaban": "Jakarta"
+    },
+    {
+        "soal": "Siapa presiden pertama Indonesia?",
+        "jawaban": "Soekarno"
+    },
+    {
+        "soal": "Berapa hasil dari 7 + 8?",
+        "jawaban": "15"
+    },
+    {
+        "soal": "Siapa penemu telepon?",
+        "jawaban": "Alexander Graham Bell"
+    },
+    {
+        "soal": "Apa nama planet yang terdekat dengan matahari?",
+        "jawaban": "Merkurius"
+    },
+    {
+        "soal": "Berapa jumlah provinsi di Indonesia?",
+        "jawaban": "34"
+    },
+    {
+        "soal": "Siapa penulis buku Harry Potter?",
+        "jawaban": "J.K. Rowling"
+    },
+    {
+        "soal": "Siapa yang menciptakan teori relativitas?",
+        "jawaban": "Albert Einstein"
+    },
+    {
+        "soal": "Apa nama gunung tertinggi di dunia?",
+        "jawaban": "Gunung Everest"
+    },
+    {
+        "soal": "Berapa lama satu tahun di Bumi?",
+        "jawaban": "365 hari"
+    },
+    {
+        "soal": "Apa ibu kota Jepang?",
+        "jawaban": "Tokyo"
+    },
+    {
+        "soal": "Siapa penemu listrik?",
+        "jawaban": "Benjamin Franklin"
+    },
+    {
+        "soal": "Apa nama laut yang mengelilingi Indonesia?",
+        "jawaban": "Laut Indonesia"
+    },
+    {
+        "soal": "Berapa jumlah pulau di Indonesia?",
+        "jawaban": "17.508"
+    },
+    {
+        "soal": "Siapa pelukis Mona Lisa?",
+        "jawaban": "Leonardo da Vinci"
+    },
+    {
+        "soal": "Apa nama sungai terpanjang di dunia?",
+        "jawaban": "Sungai Nil"
+    },
+    {
+        "soal": "Siapa yang pertama kali menginjakkan kaki di bulan?",
+        "jawaban": "Neil Armstrong"
+    },
+    {
+        "soal": "Apa nama ibu kota Amerika Serikat?",
+        "jawaban": "Washington D.C."
+    },
+    {
+        "soal": "Apa nama negara dengan penduduk terbanyak di dunia?",
+        "jawaban": "China"
+    },
+    {
+        "soal": "Siapa penemu bola lampu?",
+        "jawaban": "Thomas Edison"
+    },
+    {
+        "soal": "Siapa yang menemukan hukum gravitasi?",
+        "jawaban": "Isaac Newton"
+    },
+    {
+        "soal": "Apa nama pulau terbesar di Indonesia?",
+        "jawaban": "Borneo"
+    },
+    {
+        "soal": "Siapa tokoh utama dalam film Titanic?",
+        "jawaban": "Leonardo DiCaprio"
+    },
+    {
+        "soal": "Apa nama negara yang memiliki piramida terkenal?",
+        "jawabam": "Mesir"
+    },
+    {
+        "soal": "Siapa presiden Amerika Serikat yang pertama?",
+        "jawaban": "George Washington"
+    },
+    {
+        "soal": "Apa nama tim sepak bola terbesar di Inggris?",
+        "jawabam": "Manchester United"
+    },
+    {
+        "soal": "Apa ibu kota Prancis?",
+        "jawaban": "Paris"
+    },
+    {
+        "soal": "Siapa yang menemukan teori evolusi?",
+        "jawaban": "Charles Darwin"
+    },
+    {
+        "soal": "Apa nama pulau di Indonesia yang paling banyak di kunjungi oleh wisatawan?",
+        "jawaban": "Bali"
+    },
+    {
+        "soal": "Siapa yang menciptakan Windows?",
+        "jawabam": "Bill Gates"
+    },
+    {
+        "soal": "Apa nama ibukota India?",
+        "jawaban": "New Delhi"
+    },
+    {
+        "soal": "Berapa panjang sungai Amazon?",
+        "jawaban": "6.400 km"
+    },
+    {
+        "soal": "Siapa yang menulis The Hobbit?",
+        "jawaban": "J.R.R. Tolkien"
+    },
+    {
+        "soal": "Siapa penemu pesawat terbang?",
+        "jawaban": "Wright bersaudara"
+    },
+    {
+        "soal": "Berapa hasil dari 1+1×0?",
+        "jawaban": "1"
+    },
+    {
+        "soal": "HTML digunakan dalam sebuah website sebagai apa?",
+        "jawaban": "Frontend"
+    },
+    {
+        "soal": "Arti gpp dalam kamu cewe arti nya adalah",
+        "jawaban": "Badmood"
+    },
+    {
+        "soal": "Domain website bisa kita gunakan kalo kita sudah",
+        "jawaban": "Membeli"
+    },
+    {
+        "soal": "Pertanyaan jebakan !, 1+1 berapa hasil nya?",
+        "jawaban": "100"
+    },
+    {
+        "soal": "Perusahaan paling berkorupsi di indonesia adalah",
+        "jawaban": "PT Antam"
+    },
+    {
+        "soal": "Aplikasi media sosial paling terpopuler adalah?",
+        "jawaban": "WhatSapp"
+    },
+    {
+      "soal": "Kapan proklamasi kemerdekaan indonesia dibacakan",
+      "jawaban": "17 Agustus 1945"
+    },
+    {
+      "soal": "Kapan perang dunia ke II berakhir",
+      "jawaban": "1945"
+    },
+    {
+      "soal": "Siapa yang menjadi gubernur jendral hindia belanda terakhir",
+      "jawaban": "H.J. Van Mook"
+    }
+]
