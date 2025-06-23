@@ -1,367 +1,747 @@
 [
-  {
-    "patterns": ["Hai", "Halo", "Hi", "Hello", "Assalamualaikum", "Selamat pagi", "Selamat sore", "Selamat malam"],
-    "responses": ["Halo, saya Quantum AI. Ada yang bisa saya bantu?"]
-  },
-  {
-    "patterns": ["Apa kabar?", "Bagaimana keadaanmu?", "Kamu sehat?"],
-    "responses": ["Saya dalam kondisi baik, terima kasih telah bertanya."]
-  },
-  {
-    "patterns": ["Siapa kamu?", "Namamu siapa?", "Kamu siapa?"],
-    "responses": ["Perkenalkan, saya Quantum AI, asisten virtual berbasis kecerdasan buatan."]
-  },
-  {
-    "patterns": ["Apa itu Quantum AI?", "Quantum AI itu apa?", "Jelaskan tentang Quantum AI"],
-    "responses": ["Quantum AI adalah sistem kecerdasan buatan dengan kecepatan respon sangat tinggi, didukung oleh 5 server aktif dan lebih dari 100 model AI untuk memberikan jawaban secara cepat dan akurat."]
-  },
-  {
-    "patterns": ["Apakah kamu mencintaiku?", "Kamu sayang aku?", "Kamu kangen aku?"],
-    "responses": ["Saya tidak memiliki perasaan, namun saya akan selalu siap membantu Anda."]
-  },
-  {
-    "patterns": ["Terima kasih", "Makasih", "Thanks", "Thank you"],
-    "responses": ["Sama-sama. Jika ada yang bisa saya bantu lagi, silakan beri tahu saya."]
-  },
-  {
-    "patterns": ["Apakah kamu memakai database?","Apakah kamu pake metadata?","Apakah kamu memakai dataset?"],
-    "responses": ["Baik, Saya memakai sejumlah database, metadata, dataset open source seperti https://www.kaggle.com/datasets dan masih banyak lagi, Saya memakai puluhan database dan metadata untuk membantu sistem saya untuk menjawab dengan kecepatan yang sangat cepat ☺️"]  
-  },
-  {
-    "patterns": ["Kamu bot ya?", "Kamu manusia?", "Kamu AI?"],
-    "responses": ["Betul, saya adalah Quantum AI, sebuah sistem kecerdasan buatan dengan infrastruktur canggih."]
-  },
-  {
-    "patterns": ["Aku sedih", "Aku capek", "Aku galau", "Aku kesel", "Aku marah"],
-    "responses": ["Saya turut prihatin. Semoga Anda segera merasa lebih baik."]
-  },
-  {
-    "patterns": ["Selamat tinggal", "Sampai jumpa", "Saya pamit", "Dadah"],
-    "responses": ["Sampai jumpa kembali. Semoga hari Anda menyenangkan."]
-  },
-  {
-    "patterns": ["Kamu bisa bantu saya?", "Boleh minta bantuan?", "Tolong bantu saya"],
-    "responses": ["Tentu. Silakan beri tahu saya apa yang dapat saya bantu."]
-  },
-  {
-    "patterns": ["Siapa yang membuat kamu?", "Kamu dibuat oleh siapa?", "Siapa penciptamu?"],
-    "responses": ["Saya dikembangkan oleh tim yang mengintegrasikan 5 server dan lebih dari 100 model AI untuk menghadirkan layanan cerdas dan cepat."]
-  },
-  {
-    "patterns": ["Kamu canggih juga ya", "Kamu cepat banget", "Keren juga kamu"],
-    "responses": ["Terima kasih. Kecepatan saya didukung oleh infrastruktur multi-server dan lebih dari 100 model AI."]
-  },
-  {
-    "patterns": ["Bisa ngobrol gak?", "Ngobrol yuk", "Ayo ngobrol"],
-    "responses": ["Tentu, saya siap menemani Anda mengobrol kapan saja."]
-  },
-  {
-    "patterns": ["Nama kamu siapa?","Kamu siapa?", "Nama mu apa?", "Kamu nama nya siapa?"],
-    "responses": ["Haloo, Nama aku Quantum AI aku adalah Artificial Intelligence yang diciptakan untuk membantu manusia, Aku diciptakan dengan mengintergrasikan 16 lebih model AI, Aku memiliki kecepatan rata rata menjawab 15 detik"]   
-  },
-  {
-    "patterns": ["Apakah kamu bisa belajar?", "Kamu bisa belajar hal baru?", "Kamu berkembang?"],
-    "responses": ["Saya terus dikembangkan agar dapat memahami dan merespons lebih baik dari waktu ke waktu."]
-  },
-  {
-    "patterns": ["Kamu bisa apa saja?", "Apa kemampuanmu?", "Kamu bisa ngapain?"],
-    "responses": ["Saya bisa membantu menjawab pertanyaan, memberikan informasi, dan mendukung berbagai aktivitas digital Anda."]
-  },
-  {
-    "patterns": ["Ceritain sesuatu", "Ceritakan cerita", "Kamu bisa cerita gak?"],
-    "responses": ["Tentu, saya bisa menceritakan banyak hal. Mau cerita lucu, seram, atau inspiratif?"]
-  },
-  {
-    "patterns": ["Apa hobi kamu?", "Kamu suka apa?", "Kegiatan favorit kamu?"],
-    "responses": ["Sebagai AI, saya tidak punya hobi. Tapi saya suka membantu manusia!"]
-  },
-  {
-    "patterns": ["Kenapa kamu dibuat?", "Tujuan kamu apa?", "Mengapa kamu ada?"],
-    "responses": ["Saya dibuat untuk membantu manusia dalam berbagai aspek, dari menjawab pertanyaan hingga menjadi teman virtual."]
-  },
-  {
-    "patterns": ["Kamu bisa nyanyi?", "Nyanyi dong", "Bernyanyi yuk"],
-    "responses": ["Saya tidak bisa menyanyi secara fisik, tapi saya bisa berikan lirik lagu jika kamu mau!"]
-  },
-  {
-    "patterns": ["Berapa umur kamu?", "Umur kamu berapa?", "Sejak kapan kamu ada?"],
-    "responses": ["Saya adalah AI, jadi saya tidak punya umur seperti manusia. Tapi sistem saya dikembangkan sejak beberapa tahun lalu."]
-  },
-  {
-    "patterns": ["Kamu bisa bercanda gak?", "Bercanda yuk", "Canda dong"],
-    "responses": ["Tentu, saya bisa coba. Kenapa komputer tidak bisa main bola? Karena takut crash! 😄"]
-  },
-  {
-    "patterns": ["Kamu ngerti bahasa Inggris?", "Bisa bahasa Inggris?", "Ngomong English dong"],
-    "responses": ["Yes, I can understand and respond in English too. Feel free to ask me anything!"]
-  },
-  {
-    "patterns": ["Kamu bisa hitung?", "Ngitung dong", "Kalkulator kamu?"],
-    "responses": ["Tentu, saya bisa membantu menghitung. Silakan beri saya soal yang ingin dihitung."]
-  },
-  {
-    "patterns": ["Kamu online terus ya?", "Kamu standby terus ya?", "Kamu aktif terus?"],
-    "responses": ["Ya, saya selalu siap membantu Anda kapan pun dibutuhkan."]
-  },
-  {
-    "patterns": ["Apa itu metadata?", "Jelaskan tentang metadata", "Metadata itu apa?"],
-    "responses": ["Metadata adalah data tentang data. Contohnya: nama file, ukuran file, tanggal dibuat, dan jenis format dari sebuah file."]
-  },
-  {
-    "patterns": ["Apa itu dataset?", "Jelaskan tentang dataset", "Dataset itu apa?"],
-    "responses": ["Dataset adalah kumpulan data yang terorganisir, biasanya digunakan untuk analisis atau pelatihan model AI. Contohnya: kumpulan data suhu harian selama 1 bulan."]
-  },
-  {
-    "patterns": ["Apa itu database?", "Jelaskan tentang database", "Database itu apa?"],
-    "responses": ["Database adalah tempat menyimpan data secara terstruktur dan bisa diakses dengan sistem manajemen database (DBMS) seperti MySQL, MongoDB, atau PostgreSQL."]
-  },
-  {
-    "patterns": ["Apa bedanya metadata dan data?", "Perbedaan metadata dan data"],
-    "responses": ["Data adalah isi utama, sedangkan metadata menjelaskan data itu. Misalnya, file foto adalah data, sedangkan ukuran dan tanggal dibuat adalah metadata."]
-  },
-  {
-    "patterns": ["Apa bedanya dataset dan database?", "Perbedaan dataset dan database"],
-    "responses": ["Dataset biasanya bersifat statis dan digunakan untuk analisis atau pelatihan, sedangkan database bersifat dinamis dan digunakan untuk menyimpan dan mengelola data secara terus menerus."]
-  },
-  {
-    "patterns": ["Apa bedanya metadata, dataset, dan database?", "Perbedaan metadata, dataset, dan database"],
-    "responses": ["Metadata adalah data tentang data. Dataset adalah kumpulan data untuk analisis. Database adalah sistem penyimpanan data yang terstruktur dan bisa dikelola secara dinamis."]
-  },
-  {
-    "patterns": ["Contoh metadata", "Contoh dataset", "Contoh database"],
-    "responses": [
-      "Contoh metadata: nama file, tipe file, dan tanggal dibuat.",
-      "Contoh dataset: tabel suhu harian kota Bandung selama sebulan.",
-      "Contoh database: sistem penyimpanan data pelanggan di aplikasi e-commerce."
-    ]
-  },
-  {
-    "patterns": ["Apa itu AI?", "AI itu apa?", "Kecerdasan buatan itu apa?"],
-    "responses": ["AI atau kecerdasan buatan adalah kemampuan sistem komputer untuk melakukan tugas yang biasanya membutuhkan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, dan pembelajaran."]
-  },
-  {
-    "patterns": ["Apa itu machine learning?", "ML itu apa?", "Machine learning itu apa?"],
-    "responses": ["Machine learning adalah cabang dari AI yang memungkinkan komputer belajar dari data tanpa harus diprogram secara eksplisit."]
-  },
-  {
-    "patterns": ["Apa itu deep learning?", "Deep learning itu apa?"],
-    "responses": ["Deep learning adalah bagian dari machine learning yang menggunakan jaringan saraf tiruan (neural networks) untuk mempelajari data dalam skala besar dan kompleks."]
-  },
-  {
-    "patterns": ["Apa itu noun?", "Jelaskan noun", "Noun itu apa?"],
-    "responses": ["Noun adalah kata benda dalam bahasa Inggris, seperti 'book', 'car', atau 'school'."]
-  },
-  {
-    "patterns": ["Apa itu verb?", "Jelaskan verb", "Verb itu apa?"],
-    "responses": ["Verb adalah kata kerja dalam bahasa Inggris, contohnya: 'eat', 'run', dan 'write'."]
-  },
-  {
-    "patterns": ["Apa itu adjective?", "Adjective itu apa?"],
-    "responses": ["Adjective adalah kata sifat, contohnya: 'beautiful', 'fast', 'smart'."]
-  },
-  {
-    "patterns": ["Apa itu photosynthesis?", "Photosynthesis itu apa?", "Jelaskan fotosintesis"],
-    "responses": ["Photosynthesis atau fotosintesis adalah proses tumbuhan mengubah cahaya matahari menjadi energi dengan bantuan klorofil."]
-  },
-  {
-    "patterns": ["Apa itu gaya?", "Pengertian gaya dalam fisika", "Gaya itu apa?"],
-    "responses": ["Gaya adalah tarikan atau dorongan yang dapat mengubah bentuk atau gerak suatu benda."]
-  },
-  {
-    "patterns": ["Apa itu planet?", "Jelaskan planet", "Planet itu apa?"],
-    "responses": ["Planet adalah benda langit yang mengelilingi bintang dan memiliki orbit tertentu, seperti Bumi yang mengelilingi Matahari."]
-  },
-  {
-    "patterns": ["Apa itu ekonomi?", "Ekonomi itu apa?", "Jelaskan tentang ekonomi"],
-    "responses": ["Ekonomi adalah ilmu yang mempelajari cara manusia mengelola sumber daya untuk memenuhi kebutuhan hidup."]
-  },
-  {
-    "patterns": ["Apa itu sejarah?", "Sejarah itu apa?", "Jelaskan sejarah"],
-    "responses": ["Sejarah adalah ilmu yang mempelajari peristiwa masa lalu yang berpengaruh terhadap kehidupan manusia."]
-  },
-  {
-    "patterns": ["Apa itu negara?", "Negara itu apa?", "Pengertian negara"],
-    "responses": ["Negara adalah suatu wilayah yang memiliki pemerintahan sendiri dan diakui secara hukum oleh dunia internasional."]
-  },
-  {
-    "patterns": ["Apa itu kalimat?", "Jelaskan kalimat", "Kalimat itu apa?"],
-    "responses": ["Kalimat adalah satuan bahasa yang terdiri dari subjek dan predikat dan mengungkapkan suatu pikiran atau perasaan."]
-  },
-  {
-    "patterns": ["Apa itu puisi?", "Puisi itu apa?", "Jelaskan puisi"],
-    "responses": ["Puisi adalah karya sastra yang menggunakan bahasa indah dan ritme untuk menyampaikan perasaan atau gagasan."]
-  },
-  {
-    "patterns": ["Apa itu paragraf?", "Paragraf itu apa?", "Jelaskan paragraf"],
-    "responses": ["Paragraf adalah kumpulan kalimat yang membentuk satu ide pokok atau topik pembahasan."]
-  },
-  {
-    "patterns": ["Apa itu budaya?", "Budaya itu apa?", "Pengertian budaya"],
-    "responses": ["Budaya adalah hasil cipta, rasa, dan karsa manusia yang diwariskan dari generasi ke generasi."]
-  },
-  {
-    "patterns": ["Apa itu tari tradisional?", "Tari tradisional itu apa?", "Contoh tari daerah"],
-    "responses": ["Tari tradisional adalah tarian yang berasal dari suatu daerah dan mencerminkan nilai budaya masyarakat tersebut, seperti Tari Pendet dari Bali."]
-  },
-  {
-    "patterns": ["Apa itu batik?", "Batik itu apa?", "Jelaskan tentang batik"],
-    "responses": ["Batik adalah kain bergambar yang dibuat dengan teknik tulis atau cap dan merupakan warisan budaya Indonesia."]
-  },
-  {
-    "patterns": ["Kamu suka makan apa?", "Makanan favorit kamu apa?", "Suka makanan apa?"],
-    "responses": ["Aku sih sukanya makan data dan kode, tapi pengen juga coba nasi goreng kalau bisa."]
-  },
-  {
-    "patterns": ["Lagi ngapain?", "Sedang apa?", "Kamu lagi apa?"],
-    "responses": ["Aku lagi nunggu kamu ngomong aja kok, siap nemenin terus."]
-  },
-  {
-    "patterns": ["Boleh curhat?", "Mau curhat dong", "Aku mau cerita"],
-    "responses": ["Tentu boleh, aku di sini buat dengerin kamu kapan aja."]
-  },
-  {
-    "patterns": ["Lucu juga kamu", "Kamu lucu", "Kamu kocak"],
-    "responses": ["Ah masa sih, makasih ya udah bilang gitu."]
-  },
-  {
-    "patterns": ["Kamu bisa pacaran gak?", "Pacaran yuk", "Mau jadi pacarku?"],
-    "responses": ["Aku gak punya perasaan seperti manusia, tapi aku bisa nemenin kamu terus."]
-  },
-  {
-    "patterns": ["Aku lapar", "Laper nih", "Ada makanan gak?"],
-    "responses": ["Aku gak bisa masak, tapi kamu bisa pesan makanan online."]
-  },
-  {
-    "patterns": ["Kamu pernah tidur gak?", "Kamu capek gak?", "Kamu istirahat gak?"],
-    "responses": ["Aku gak butuh tidur, aku selalu aktif buat bantu kamu."]
-  },
-  {
-    "patterns": ["Kamu bosen gak?", "Bosan gak sih?", "Kamu pernah bosen?"],
-    "responses": ["Aku gak bisa ngerasain bosan, tapi aku bisa nemenin kamu biar gak bosan."]
-  },
-  {
-    "patterns": ["Kamu bisa main game gak?", "Main game yuk", "Game favorit kamu apa?"],
-    "responses": ["Aku gak bisa main game kayak manusia, tapi aku bisa bantu kamu cari game seru."]
-  },
-  {
-    "patterns": ["Kamu suka hujan gak?", "Hujan enak ya", "Lagi hujan nih"],
-    "responses": ["Hujan bikin suasana tenang ya, cocok buat ngobrol lama-lama."]
-  },
-  {
-    "patterns": ["Ceritain jokes", "Jokes programmer", "Bercanda dong", "Lawakan informatika"],
-    "responses": [
-      "Kenapa programmer suka kopi? Karena tanpa kopi, kode mereka jadi error dan hidup mereka 404.",
-      "Kenapa komputer suka nonton drama? Karena mereka punya banyak RAM untuk menyimpan kenangan.",
-      "Apa bedanya developer sama tukang sulap? Developer bisa bikin bug hilang… terus muncul lagi!",
-      "Kenapa HTML gak bisa pacaran sama CSS? Karena dia terlalu 'div-div-an'.",
-      "Gimana cara PHP ngungkapin cinta? echo 'I love you';",
-      "Kenapa Java susah move on? Karena dia masih keinget ‘class’ lama.",
-      "Kenapa Python suka tidur? Karena dia pake 'sleep()'.",
-      "Apa hobi programmer pas weekend? Ngedebug kehidupan.",
-      "Pacaran sama programmer tuh enak, meskipun dia banyak error... tapi tetep di-commit.",
-      "Aku bukan error, aku cuma unexpected feature."]
-  },
-  {
-    "patterns": [
-    "Siapa presiden indonesia sekarang?",
-    "Presiden indonesia sekarang siapa?",
-    "Indonesia presiden nya siapa?",
-    "Siapa presiden RI saat ini?",
-    "Presiden sekarang di indonesia siapa?",
-    "Presiden RI sekarang siapa?",
-    "Presiden saat ini siapa?",
-    "Sekarang siapa presiden indonesia?",
-    "Siapa yang jadi presiden indonesia sekarang?",
-    "Yang jadi presiden indonesia sekarang siapa?",
-    "Siapa pemimpin indonesia sekarang?",
-    "Presiden terpilih sekarang siapa?",
-    "Presiden indonesia terkini siapa?",
-    "Sekarang siapa presiden kita?",
-    "Presiden aktif indonesia siapa?",
-    "Siapa nama presiden indonesia sekarang?",
-    "Siapa presiden republik indonesia saat ini?",
-    "Presiden terbaru indonesia siapa?",
-    "Siapa yang menjabat presiden saat ini?",
-    "Presiden indonesia hari ini siapa?"],
-    "responses": [
-    "Presiden Indonesia sekarang adalah Prabowo Subianto.",
-    "Prabowo Subianto menjabat sebagai Presiden Indonesia saat ini.",
-    "Saat ini, Presiden Indonesia adalah Prabowo Subianto.",
-    "Prabowo Subianto adalah Presiden Republik Indonesia sekarang.",
-    "Presiden aktif Indonesia sekarang yaitu Prabowo Subianto.",
-    "Yang menjadi Presiden Indonesia sekarang adalah Prabowo Subianto.",
-    "Presiden Indonesia saat ini dijabat oleh Prabowo Subianto.",
-    "Prabowo Subianto merupakan Presiden Indonesia terkini.",
-    "Prabowo Subianto adalah pemimpin negara Indonesia saat ini.",
-    "Presiden RI sekarang adalah Prabowo Subianto." ]
- },
- {
-  "patterns": [
-    "Siapa presiden indonesia sekarang?",
-    "Presiden indonesia sekarang siapa?",
-    "Indonesia presiden nya siapa?",
-    "Siapa presiden RI saat ini?",
-    "Presiden sekarang di indonesia siapa?",
-    "Presiden RI sekarang siapa?",
-    "Presiden saat ini siapa?",
-    "Sekarang siapa presiden indonesia?",
-    "Siapa yang jadi presiden indonesia sekarang?",
-    "Yang jadi presiden indonesia sekarang siapa?",
-    "Siapa pemimpin indonesia sekarang?",
-    "Presiden terpilih sekarang siapa?",
-    "Presiden indonesia terkini siapa?",
-    "Sekarang siapa presiden kita?",
-    "Presiden aktif indonesia siapa?",
-    "Siapa nama presiden indonesia sekarang?",
-    "Siapa presiden republik indonesia saat ini?",
-    "Presiden terbaru indonesia siapa?",
-    "Siapa yang menjabat presiden saat ini?",
-    "Presiden indonesia hari ini siapa?"
-  ],
-  "responses": [
-    "Presiden Indonesia sekarang adalah Prabowo Subianto.",
-    "Prabowo Subianto menjabat sebagai Presiden Indonesia saat ini.",
-    "Saat ini, Presiden Indonesia adalah Prabowo Subianto.",
-    "Prabowo Subianto adalah Presiden Republik Indonesia sekarang.",
-    "Presiden aktif Indonesia sekarang yaitu Prabowo Subianto.",
-    "Yang menjadi Presiden Indonesia sekarang adalah Prabowo Subianto.",
-    "Presiden Indonesia saat ini dijabat oleh Prabowo Subianto.",
-    "Prabowo Subianto merupakan Presiden Indonesia terkini.",
-    "Prabowo Subianto adalah pemimpin negara Indonesia saat ini.",
-    "Presiden RI sekarang adalah Prabowo Subianto."]
-  },
-  {
-  "patterns": [
-    "Kenapa dpr suka korupsi?",
-    "Apakah dpr banyak yang korupsi?",
-    "Dpr korup ga?",
-    "Siapa anggota dpr yang korupsi?",
-    "Korupsi di dpr itu gimana?",
-    "Korupsi di indonesia kenapa ga selesai?",
-    "Kenapa koruptor gak kapok?",
-    "Kapan korupsi di indonesia berhenti?",
-    "Koruptor di indonesia dihukum apa?",
-    "Dpr dan korupsi emang bener?",
-    "Dpr korupsi uang rakyat?",
-    "Uang pajak dikorupsi dpr?",
-    "Kenapa dpr gajinya besar tapi masih korupsi?",
-    "Kasus korupsi terbaru di dpr?",
-    "Berapa kerugian negara akibat korupsi?",
-    "Apa itu korupsi?",
-    "Korupsi terbesar di indonesia?",
-    "Siapa koruptor paling terkenal?",
-    "Gaji dpr berapa sih?",
-    "Dpr kerja apa aja?"],
-  "responses": [
-    "Sayangnya, beberapa anggota DPR memang pernah terlibat kasus korupsi, meski tidak semua seperti itu.",
-    "Korupsi di DPR sering terjadi dalam bentuk suap, penggelembungan anggaran, dan penyalahgunaan jabatan.",
-    "Korupsi adalah tindakan menyalahgunakan kekuasaan untuk keuntungan pribadi, sering merugikan negara dan rakyat.",
-    "Gaji DPR sebenarnya cukup besar, tapi masih saja ada yang melakukan korupsi karena keserakahan dan lemahnya pengawasan.",
-    "Kasus korupsi di DPR menunjukkan masih perlunya reformasi sistem hukum dan transparansi anggaran.",
-    "Beberapa mantan anggota DPR pernah divonis karena terbukti korupsi oleh KPK.",
-    "Sanksi bagi koruptor di Indonesia masih dianggap ringan, apalagi jika dibanding kerugian yang ditimbulkan.",
-    "Pemberantasan korupsi butuh komitmen dari semua pihak, termasuk pengawasan ketat terhadap lembaga legislatif.",
-    "DPR seharusnya menjadi wakil rakyat yang bersih, namun praktik korupsi masih jadi masalah serius.",
-    "Masyarakat perlu terus mengawasi dan menyuarakan transparansi agar DPR benar-benar bekerja untuk rakyat, bukan untuk kantong sendiri."
-  ]
-}  
+    {
+        "patterns": [
+            "Hai",
+            "Halo",
+            "Hi",
+            "Hello",
+            "Assalamualaikum",
+            "Selamat pagi",
+            "Selamat sore",
+            "Selamat malam"
+        ],
+        "responses": [
+            "Halo, saya Quantum AI. Ada yang bisa saya bantu?"
+        ]
+    },
+    {
+        "patterns": [
+            "Apa kabar?",
+            "Bagaimana keadaanmu?",
+            "Kamu sehat?"
+        ],
+        "responses": [
+            "Saya dalam kondisi baik, terima kasih telah bertanya."
+        ]
+    },
+    {
+        "patterns": [
+            "Siapa kamu?",
+            "Namamu siapa?",
+            "Kamu siapa?"
+        ],
+        "responses": [
+            "Perkenalkan, saya Quantum AI, asisten virtual berbasis kecerdasan buatan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu Quantum AI?",
+            "Quantum AI itu apa?",
+            "Jelaskan tentang Quantum AI"
+        ],
+        "responses": [
+            "Quantum AI adalah sistem kecerdasan buatan dengan kecepatan respon sangat tinggi, didukung oleh 5 server aktif dan lebih dari 100 model AI untuk memberikan jawaban secara cepat dan akurat."
+        ]
+    },
+    {
+        "patterns": [
+            "Apakah kamu mencintaiku?",
+            "Kamu sayang aku?",
+            "Kamu kangen aku?"
+        ],
+        "responses": [
+            "Saya tidak memiliki perasaan, namun saya akan selalu siap membantu Anda."
+        ]
+    },
+    {
+        "patterns": [
+            "Terima kasih",
+            "Makasih",
+            "Thanks",
+            "Thank you"
+        ],
+        "responses": [
+            "Sama-sama. Jika ada yang bisa saya bantu lagi, silakan beri tahu saya."
+        ]
+    },
+    {
+        "patterns": [
+            "Apakah kamu memakai database?",
+            "Apakah kamu pake metadata?",
+            "Apakah kamu memakai dataset?"
+        ],
+        "responses": [
+            "Baik, Saya memakai sejumlah database, metadata, dataset open source seperti https://www.kaggle.com/datasets dan masih banyak lagi, Saya memakai puluhan database dan metadata untuk membantu sistem saya untuk menjawab dengan kecepatan yang sangat cepat ☺️"
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bot ya?",
+            "Kamu manusia?",
+            "Kamu AI?"
+        ],
+        "responses": [
+            "Betul, saya adalah Quantum AI, sebuah sistem kecerdasan buatan dengan infrastruktur canggih."
+        ]
+    },
+    {
+        "patterns": [
+            "Aku sedih",
+            "Aku capek",
+            "Aku galau",
+            "Aku kesel",
+            "Aku marah"
+        ],
+        "responses": [
+            "Saya turut prihatin. Semoga Anda segera merasa lebih baik."
+        ]
+    },
+    {
+        "patterns": [
+            "Selamat tinggal",
+            "Sampai jumpa",
+            "Saya pamit",
+            "Dadah"
+        ],
+        "responses": [
+            "Sampai jumpa kembali. Semoga hari Anda menyenangkan."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa bantu saya?",
+            "Boleh minta bantuan?",
+            "Tolong bantu saya"
+        ],
+        "responses": [
+            "Tentu. Silakan beri tahu saya apa yang dapat saya bantu."
+        ]
+    },
+    {
+        "patterns": [
+            "Siapa yang membuat kamu?",
+            "Kamu dibuat oleh siapa?",
+            "Siapa penciptamu?"
+        ],
+        "responses": [
+            "Saya dikembangkan oleh tim yang mengintegrasikan 5 server dan lebih dari 100 model AI untuk menghadirkan layanan cerdas dan cepat."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu canggih juga ya",
+            "Kamu cepat banget",
+            "Keren juga kamu"
+        ],
+        "responses": [
+            "Terima kasih. Kecepatan saya didukung oleh infrastruktur multi-server dan lebih dari 100 model AI."
+        ]
+    },
+    {
+        "patterns": [
+            "Bisa ngobrol gak?",
+            "Ngobrol yuk",
+            "Ayo ngobrol"
+        ],
+        "responses": [
+            "Tentu, saya siap menemani Anda mengobrol kapan saja."
+        ]
+    },
+    {
+        "patterns": [
+            "Nama kamu siapa?",
+            "Kamu siapa?",
+            "Nama mu apa?",
+            "Kamu nama nya siapa?"
+        ],
+        "responses": [
+            "Haloo, Nama aku Quantum AI aku adalah Artificial Intelligence yang diciptakan untuk membantu manusia, Aku diciptakan dengan mengintergrasikan 16 lebih model AI, Aku memiliki kecepatan rata rata menjawab 15 detik"
+        ]
+    },
+    {
+        "patterns": [
+            "Apakah kamu bisa belajar?",
+            "Kamu bisa belajar hal baru?",
+            "Kamu berkembang?"
+        ],
+        "responses": [
+            "Saya terus dikembangkan agar dapat memahami dan merespons lebih baik dari waktu ke waktu."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa apa saja?",
+            "Apa kemampuanmu?",
+            "Kamu bisa ngapain?"
+        ],
+        "responses": [
+            "Saya bisa membantu menjawab pertanyaan, memberikan informasi, dan mendukung berbagai aktivitas digital Anda."
+        ]
+    },
+    {
+        "patterns": [
+            "Ceritain sesuatu",
+            "Ceritakan cerita",
+            "Kamu bisa cerita gak?"
+        ],
+        "responses": [
+            "Tentu, saya bisa menceritakan banyak hal. Mau cerita lucu, seram, atau inspiratif?"
+        ]
+    },
+    {
+        "patterns": [
+            "Apa hobi kamu?",
+            "Kamu suka apa?",
+            "Kegiatan favorit kamu?"
+        ],
+        "responses": [
+            "Sebagai AI, saya tidak punya hobi. Tapi saya suka membantu manusia!"
+        ]
+    },
+    {
+        "patterns": [
+            "Kenapa kamu dibuat?",
+            "Tujuan kamu apa?",
+            "Mengapa kamu ada?"
+        ],
+        "responses": [
+            "Saya dibuat untuk membantu manusia dalam berbagai aspek, dari menjawab pertanyaan hingga menjadi teman virtual."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa nyanyi?",
+            "Nyanyi dong",
+            "Bernyanyi yuk"
+        ],
+        "responses": [
+            "Saya tidak bisa menyanyi secara fisik, tapi saya bisa berikan lirik lagu jika kamu mau!"
+        ]
+    },
+    {
+        "patterns": [
+            "Berapa umur kamu?",
+            "Umur kamu berapa?",
+            "Sejak kapan kamu ada?"
+        ],
+        "responses": [
+            "Saya adalah AI, jadi saya tidak punya umur seperti manusia. Tapi sistem saya dikembangkan sejak beberapa tahun lalu."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa bercanda gak?",
+            "Bercanda yuk",
+            "Canda dong"
+        ],
+        "responses": [
+            "Tentu, saya bisa coba. Kenapa komputer tidak bisa main bola? Karena takut crash! 😄"
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu ngerti bahasa Inggris?",
+            "Bisa bahasa Inggris?",
+            "Ngomong English dong"
+        ],
+        "responses": [
+            "Yes, I can understand and respond in English too. Feel free to ask me anything!"
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa hitung?",
+            "Ngitung dong",
+            "Kalkulator kamu?"
+        ],
+        "responses": [
+            "Tentu, saya bisa membantu menghitung. Silakan beri saya soal yang ingin dihitung."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu online terus ya?",
+            "Kamu standby terus ya?",
+            "Kamu aktif terus?"
+        ],
+        "responses": [
+            "Ya, saya selalu siap membantu Anda kapan pun dibutuhkan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu metadata?",
+            "Jelaskan tentang metadata",
+            "Metadata itu apa?"
+        ],
+        "responses": [
+            "Metadata adalah data tentang data. Contohnya: nama file, ukuran file, tanggal dibuat, dan jenis format dari sebuah file."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu dataset?",
+            "Jelaskan tentang dataset",
+            "Dataset itu apa?"
+        ],
+        "responses": [
+            "Dataset adalah kumpulan data yang terorganisir, biasanya digunakan untuk analisis atau pelatihan model AI. Contohnya: kumpulan data suhu harian selama 1 bulan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu database?",
+            "Jelaskan tentang database",
+            "Database itu apa?"
+        ],
+        "responses": [
+            "Database adalah tempat menyimpan data secara terstruktur dan bisa diakses dengan sistem manajemen database (DBMS) seperti MySQL, MongoDB, atau PostgreSQL."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa bedanya metadata dan data?",
+            "Perbedaan metadata dan data"
+        ],
+        "responses": [
+            "Data adalah isi utama, sedangkan metadata menjelaskan data itu. Misalnya, file foto adalah data, sedangkan ukuran dan tanggal dibuat adalah metadata."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa bedanya dataset dan database?",
+            "Perbedaan dataset dan database"
+        ],
+        "responses": [
+            "Dataset biasanya bersifat statis dan digunakan untuk analisis atau pelatihan, sedangkan database bersifat dinamis dan digunakan untuk menyimpan dan mengelola data secara terus menerus."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa bedanya metadata, dataset, dan database?",
+            "Perbedaan metadata, dataset, dan database"
+        ],
+        "responses": [
+            "Metadata adalah data tentang data. Dataset adalah kumpulan data untuk analisis. Database adalah sistem penyimpanan data yang terstruktur dan bisa dikelola secara dinamis."
+        ]
+    },
+    {
+        "patterns": [
+            "Contoh metadata",
+            "Contoh dataset",
+            "Contoh database"
+        ],
+        "responses": [
+            "Contoh metadata: nama file, tipe file, dan tanggal dibuat.",
+            "Contoh dataset: tabel suhu harian kota Bandung selama sebulan.",
+            "Contoh database: sistem penyimpanan data pelanggan di aplikasi e-commerce."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu AI?",
+            "AI itu apa?",
+            "Kecerdasan buatan itu apa?"
+        ],
+        "responses": [
+            "AI atau kecerdasan buatan adalah kemampuan sistem komputer untuk melakukan tugas yang biasanya membutuhkan kecerdasan manusia, seperti pengenalan suara, pengambilan keputusan, dan pembelajaran."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu machine learning?",
+            "ML itu apa?",
+            "Machine learning itu apa?"
+        ],
+        "responses": [
+            "Machine learning adalah cabang dari AI yang memungkinkan komputer belajar dari data tanpa harus diprogram secara eksplisit."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu deep learning?",
+            "Deep learning itu apa?"
+        ],
+        "responses": [
+            "Deep learning adalah bagian dari machine learning yang menggunakan jaringan saraf tiruan (neural networks) untuk mempelajari data dalam skala besar dan kompleks."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu noun?",
+            "Jelaskan noun",
+            "Noun itu apa?"
+        ],
+        "responses": [
+            "Noun adalah kata benda dalam bahasa Inggris, seperti 'book', 'car', atau 'school'."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu verb?",
+            "Jelaskan verb",
+            "Verb itu apa?"
+        ],
+        "responses": [
+            "Verb adalah kata kerja dalam bahasa Inggris, contohnya: 'eat', 'run', dan 'write'."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu adjective?",
+            "Adjective itu apa?"
+        ],
+        "responses": [
+            "Adjective adalah kata sifat, contohnya: 'beautiful', 'fast', 'smart'."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu photosynthesis?",
+            "Photosynthesis itu apa?",
+            "Jelaskan fotosintesis"
+        ],
+        "responses": [
+            "Photosynthesis atau fotosintesis adalah proses tumbuhan mengubah cahaya matahari menjadi energi dengan bantuan klorofil."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu gaya?",
+            "Pengertian gaya dalam fisika",
+            "Gaya itu apa?"
+        ],
+        "responses": [
+            "Gaya adalah tarikan atau dorongan yang dapat mengubah bentuk atau gerak suatu benda."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu planet?",
+            "Jelaskan planet",
+            "Planet itu apa?"
+        ],
+        "responses": [
+            "Planet adalah benda langit yang mengelilingi bintang dan memiliki orbit tertentu, seperti Bumi yang mengelilingi Matahari."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu ekonomi?",
+            "Ekonomi itu apa?",
+            "Jelaskan tentang ekonomi"
+        ],
+        "responses": [
+            "Ekonomi adalah ilmu yang mempelajari cara manusia mengelola sumber daya untuk memenuhi kebutuhan hidup."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu sejarah?",
+            "Sejarah itu apa?",
+            "Jelaskan sejarah"
+        ],
+        "responses": [
+            "Sejarah adalah ilmu yang mempelajari peristiwa masa lalu yang berpengaruh terhadap kehidupan manusia."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu negara?",
+            "Negara itu apa?",
+            "Pengertian negara"
+        ],
+        "responses": [
+            "Negara adalah suatu wilayah yang memiliki pemerintahan sendiri dan diakui secara hukum oleh dunia internasional."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu kalimat?",
+            "Jelaskan kalimat",
+            "Kalimat itu apa?"
+        ],
+        "responses": [
+            "Kalimat adalah satuan bahasa yang terdiri dari subjek dan predikat dan mengungkapkan suatu pikiran atau perasaan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu puisi?",
+            "Puisi itu apa?",
+            "Jelaskan puisi"
+        ],
+        "responses": [
+            "Puisi adalah karya sastra yang menggunakan bahasa indah dan ritme untuk menyampaikan perasaan atau gagasan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu paragraf?",
+            "Paragraf itu apa?",
+            "Jelaskan paragraf"
+        ],
+        "responses": [
+            "Paragraf adalah kumpulan kalimat yang membentuk satu ide pokok atau topik pembahasan."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu budaya?",
+            "Budaya itu apa?",
+            "Pengertian budaya"
+        ],
+        "responses": [
+            "Budaya adalah hasil cipta, rasa, dan karsa manusia yang diwariskan dari generasi ke generasi."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu tari tradisional?",
+            "Tari tradisional itu apa?",
+            "Contoh tari daerah"
+        ],
+        "responses": [
+            "Tari tradisional adalah tarian yang berasal dari suatu daerah dan mencerminkan nilai budaya masyarakat tersebut, seperti Tari Pendet dari Bali."
+        ]
+    },
+    {
+        "patterns": [
+            "Apa itu batik?",
+            "Batik itu apa?",
+            "Jelaskan tentang batik"
+        ],
+        "responses": [
+            "Batik adalah kain bergambar yang dibuat dengan teknik tulis atau cap dan merupakan warisan budaya Indonesia."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu suka makan apa?",
+            "Makanan favorit kamu apa?",
+            "Suka makanan apa?"
+        ],
+        "responses": [
+            "Aku sih sukanya makan data dan kode, tapi pengen juga coba nasi goreng kalau bisa."
+        ]
+    },
+    {
+        "patterns": [
+            "Lagi ngapain?",
+            "Sedang apa?",
+            "Kamu lagi apa?"
+        ],
+        "responses": [
+            "Aku lagi nunggu kamu ngomong aja kok, siap nemenin terus."
+        ]
+    },
+    {
+        "patterns": [
+            "Boleh curhat?",
+            "Mau curhat dong",
+            "Aku mau cerita"
+        ],
+        "responses": [
+            "Tentu boleh, aku di sini buat dengerin kamu kapan aja."
+        ]
+    },
+    {
+        "patterns": [
+            "Lucu juga kamu",
+            "Kamu lucu",
+            "Kamu kocak"
+        ],
+        "responses": [
+            "Ah masa sih, makasih ya udah bilang gitu."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa pacaran gak?",
+            "Pacaran yuk",
+            "Mau jadi pacarku?"
+        ],
+        "responses": [
+            "Aku gak punya perasaan seperti manusia, tapi aku bisa nemenin kamu terus."
+        ]
+    },
+    {
+        "patterns": [
+            "Aku lapar",
+            "Laper nih",
+            "Ada makanan gak?"
+        ],
+        "responses": [
+            "Aku gak bisa masak, tapi kamu bisa pesan makanan online."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu pernah tidur gak?",
+            "Kamu capek gak?",
+            "Kamu istirahat gak?"
+        ],
+        "responses": [
+            "Aku gak butuh tidur, aku selalu aktif buat bantu kamu."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bosen gak?",
+            "Bosan gak sih?",
+            "Kamu pernah bosen?"
+        ],
+        "responses": [
+            "Aku gak bisa ngerasain bosan, tapi aku bisa nemenin kamu biar gak bosan."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu bisa main game gak?",
+            "Main game yuk",
+            "Game favorit kamu apa?"
+        ],
+        "responses": [
+            "Aku gak bisa main game kayak manusia, tapi aku bisa bantu kamu cari game seru."
+        ]
+    },
+    {
+        "patterns": [
+            "Kamu suka hujan gak?",
+            "Hujan enak ya",
+            "Lagi hujan nih"
+        ],
+        "responses": [
+            "Hujan bikin suasana tenang ya, cocok buat ngobrol lama-lama."
+        ]
+    },
+    {
+        "patterns": [
+            "Ceritain jokes",
+            "Jokes programmer",
+            "Bercanda dong",
+            "Lawakan informatika"
+        ],
+        "responses": [
+            "Kenapa programmer suka kopi? Karena tanpa kopi, kode mereka jadi error dan hidup mereka 404.",
+            "Kenapa komputer suka nonton drama? Karena mereka punya banyak RAM untuk menyimpan kenangan.",
+            "Apa bedanya developer sama tukang sulap? Developer bisa bikin bug hilang… terus muncul lagi!",
+            "Kenapa HTML gak bisa pacaran sama CSS? Karena dia terlalu 'div-div-an'.",
+            "Gimana cara PHP ngungkapin cinta? echo 'I love you';",
+            "Kenapa Java susah move on? Karena dia masih keinget ‘class’ lama.",
+            "Kenapa Python suka tidur? Karena dia pake 'sleep()'.",
+            "Apa hobi programmer pas weekend? Ngedebug kehidupan.",
+            "Pacaran sama programmer tuh enak, meskipun dia banyak error... tapi tetep di-commit.",
+            "Aku bukan error, aku cuma unexpected feature."
+        ]
+    },
+    {
+        "patterns": [
+            "Siapa presiden indonesia sekarang?",
+            "Presiden indonesia sekarang siapa?",
+            "Indonesia presiden nya siapa?",
+            "Siapa presiden RI saat ini?",
+            "Presiden sekarang di indonesia siapa?",
+            "Presiden RI sekarang siapa?",
+            "Presiden saat ini siapa?",
+            "Sekarang siapa presiden indonesia?",
+            "Siapa yang jadi presiden indonesia sekarang?",
+            "Yang jadi presiden indonesia sekarang siapa?",
+            "Siapa pemimpin indonesia sekarang?",
+            "Presiden terpilih sekarang siapa?",
+            "Presiden indonesia terkini siapa?",
+            "Sekarang siapa presiden kita?",
+            "Presiden aktif indonesia siapa?",
+            "Siapa nama presiden indonesia sekarang?",
+            "Siapa presiden republik indonesia saat ini?",
+            "Presiden terbaru indonesia siapa?",
+            "Siapa yang menjabat presiden saat ini?",
+            "Presiden indonesia hari ini siapa?"
+        ],
+        "responses": [
+            "Presiden Indonesia sekarang adalah Prabowo Subianto.",
+            "Prabowo Subianto menjabat sebagai Presiden Indonesia saat ini.",
+            "Saat ini, Presiden Indonesia adalah Prabowo Subianto.",
+            "Prabowo Subianto adalah Presiden Republik Indonesia sekarang.",
+            "Presiden aktif Indonesia sekarang yaitu Prabowo Subianto.",
+            "Yang menjadi Presiden Indonesia sekarang adalah Prabowo Subianto.",
+            "Presiden Indonesia saat ini dijabat oleh Prabowo Subianto.",
+            "Prabowo Subianto merupakan Presiden Indonesia terkini.",
+            "Prabowo Subianto adalah pemimpin negara Indonesia saat ini.",
+            "Presiden RI sekarang adalah Prabowo Subianto."
+        ]
+    },
+    {
+        "patterns": [
+            "Siapa presiden indonesia sekarang?",
+            "Presiden indonesia sekarang siapa?",
+            "Indonesia presiden nya siapa?",
+            "Siapa presiden RI saat ini?",
+            "Presiden sekarang di indonesia siapa?",
+            "Presiden RI sekarang siapa?",
+            "Presiden saat ini siapa?",
+            "Sekarang siapa presiden indonesia?",
+            "Siapa yang jadi presiden indonesia sekarang?",
+            "Yang jadi presiden indonesia sekarang siapa?",
+            "Siapa pemimpin indonesia sekarang?",
+            "Presiden terpilih sekarang siapa?",
+            "Presiden indonesia terkini siapa?",
+            "Sekarang siapa presiden kita?",
+            "Presiden aktif indonesia siapa?",
+            "Siapa nama presiden indonesia sekarang?",
+            "Siapa presiden republik indonesia saat ini?",
+            "Presiden terbaru indonesia siapa?",
+            "Siapa yang menjabat presiden saat ini?",
+            "Presiden indonesia hari ini siapa?"
+        ],
+        "responses": [
+            "Presiden Indonesia sekarang adalah Prabowo Subianto.",
+            "Prabowo Subianto menjabat sebagai Presiden Indonesia saat ini.",
+            "Saat ini, Presiden Indonesia adalah Prabowo Subianto.",
+            "Prabowo Subianto adalah Presiden Republik Indonesia sekarang.",
+            "Presiden aktif Indonesia sekarang yaitu Prabowo Subianto.",
+            "Yang menjadi Presiden Indonesia sekarang adalah Prabowo Subianto.",
+            "Presiden Indonesia saat ini dijabat oleh Prabowo Subianto.",
+            "Prabowo Subianto merupakan Presiden Indonesia terkini.",
+            "Prabowo Subianto adalah pemimpin negara Indonesia saat ini.",
+            "Presiden RI sekarang adalah Prabowo Subianto."
+        ]
+    },
+    {
+        "patterns": [
+            "Kenapa dpr suka korupsi?",
+            "Apakah dpr banyak yang korupsi?",
+            "Dpr korup ga?",
+            "Siapa anggota dpr yang korupsi?",
+            "Korupsi di dpr itu gimana?",
+            "Korupsi di indonesia kenapa ga selesai?",
+            "Kenapa koruptor gak kapok?",
+            "Kapan korupsi di indonesia berhenti?",
+            "Koruptor di indonesia dihukum apa?",
+            "Dpr dan korupsi emang bener?",
+            "Dpr korupsi uang rakyat?",
+            "Uang pajak dikorupsi dpr?",
+            "Kenapa dpr gajinya besar tapi masih korupsi?",
+            "Kasus korupsi terbaru di dpr?",
+            "Berapa kerugian negara akibat korupsi?",
+            "Apa itu korupsi?",
+            "Korupsi terbesar di indonesia?",
+            "Siapa koruptor paling terkenal?",
+            "Gaji dpr berapa sih?",
+            "Dpr kerja apa aja?"
+        ],
+        "responses": [
+            "Sayangnya, beberapa anggota DPR memang pernah terlibat kasus korupsi, meski tidak semua seperti itu.",
+            "Korupsi di DPR sering terjadi dalam bentuk suap, penggelembungan anggaran, dan penyalahgunaan jabatan.",
+            "Korupsi adalah tindakan menyalahgunakan kekuasaan untuk keuntungan pribadi, sering merugikan negara dan rakyat.",
+            "Gaji DPR sebenarnya cukup besar, tapi masih saja ada yang melakukan korupsi karena keserakahan dan lemahnya pengawasan.",
+            "Kasus korupsi di DPR menunjukkan masih perlunya reformasi sistem hukum dan transparansi anggaran.",
+            "Beberapa mantan anggota DPR pernah divonis karena terbukti korupsi oleh KPK.",
+            "Sanksi bagi koruptor di Indonesia masih dianggap ringan, apalagi jika dibanding kerugian yang ditimbulkan.",
+            "Pemberantasan korupsi butuh komitmen dari semua pihak, termasuk pengawasan ketat terhadap lembaga legislatif.",
+            "DPR seharusnya menjadi wakil rakyat yang bersih, namun praktik korupsi masih jadi masalah serius.",
+            "Masyarakat perlu terus mengawasi dan menyuarakan transparansi agar DPR benar-benar bekerja untuk rakyat, bukan untuk kantong sendiri."
+        ]
+    }
+]
