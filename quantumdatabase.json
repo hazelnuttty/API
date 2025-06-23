@@ -259,10 +259,7 @@
       "Kenapa Python suka tidur? Karena dia pake 'sleep()'.",
       "Apa hobi programmer pas weekend? Ngedebug kehidupan.",
       "Pacaran sama programmer tuh enak, meskipun dia banyak error... tapi tetep di-commit.",
-      "Aku bukan error, aku cuma unexpected feature."]
-  },
-  {
-    "patterns": ["Siapa presiden indonesi sekarang?", "Presiden indonesia sekarang siapa?", "Indonesia presiden nya siapa?"]
-    "response": ["Presiden indonesia sekarang adalah prabowo subianto"]
+      "Aku bukan error, aku cuma unexpected feature."
+    ]
   }
 ]
