@@ -1,14 +1,5 @@
 [
-  {
-    "patterns": [
-      "kamu siapa", "siapa kamu", "kamu dari mana", "asal kamu dari mana",
-      "siapa pembuatmu", "kamu buatan siapa", "siapa owner kamu"
-    ],
-    "responses": [
-      "Gue Astra, AI buatan Hazel. Santai aja, gue di sini buat bantu lo."
-    ]
-  },
-  {
+  {   
     "patterns": [
       "aku sedih", "lagi sedih", "galau", "kecewa", "cape banget", "stress"
     ],
