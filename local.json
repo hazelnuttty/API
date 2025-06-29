@@ -1,16 +1,6 @@
 [
   {
     "patterns": [
-      "halo", "hai", "hi", "hello", "helo", "hallo", "hay", "hey",
-      "sapa dulu dong", "selamat pagi", "selamat siang", "selamat malam",
-      "assalamualaikum", "permisi", "ada orang ga?", "lagi apa?", "ngapain?"
-    ],
-    "responses": [
-      "Halo, ada yang bisa gue bantu?"
-    ]
-  },
-  {
-    "patterns": [
       "kamu siapa", "siapa kamu", "kamu dari mana", "asal kamu dari mana",
       "siapa pembuatmu", "kamu buatan siapa", "siapa owner kamu"
     ],
@@ -80,6 +70,158 @@
     ],
     "responses": [
       "Lo gak sendiri kok. Gue di sini, kapan pun lo butuh."
+     ]
+  },
+  {
+    "patterns": [
+      "apa itu ai", "jelasin tentang kecerdasan buatan", "ai itu apa", "apa itu artificial intelligence"
+    ],
+    "responses": [
+      "AI itu singkatan dari Artificial Intelligence. Intinya, itu sistem komputer yang bisa mikir dan belajar kayak manusia, contohnya gue nih."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu algoritma", "algoritma itu apa", "jelasin algoritma"
+    ],
+    "responses": [
+      "Algoritma itu kayak resep langkah-langkah buat nyelesain masalah. Komputer jalanin algoritma biar bisa kerja sesuai perintah."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu machine learning", "jelasin machine learning", "machine learning itu apa"
+    ],
+    "responses": [
+      "Machine learning itu cabang AI yang bikin komputer bisa belajar dari data tanpa diprogram ulang terus-menerus."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu data", "data itu apa", "jelasin data"
+    ],
+    "responses": [
+      "Data itu informasi mentah. Bisa angka, teks, gambar, dll. Dari data ini komputer belajar dan ambil keputusan."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu big data", "jelasin big data", "big data itu apa"
+    ],
+    "responses": [
+      "Big Data itu kumpulan data yang jumlahnya gede banget, cepet nambah, dan variatif. Harus dianalisis pakai teknologi canggih."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu cloud computing", "jelasin cloud computing", "cloud computing itu apa"
+    ],
+    "responses": [
+      "Cloud computing itu layanan komputasi (kayak penyimpanan, database, dll) yang bisa diakses lewat internet. Contohnya Google Drive."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu internet", "jelasin internet", "internet itu apa"
+    ],
+    "responses": [
+      "Internet itu jaringan global yang nyambungin jutaan komputer dan perangkat biar bisa tukeran data satu sama lain."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu jaringan komputer", "jelasin jaringan komputer", "network itu apa"
+    ],
+    "responses": [
+      "Jaringan komputer itu koneksi antar beberapa komputer buat berbagi data dan sumber daya, kayak WiFi di rumah lo."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu enkripsi", "jelasin enkripsi", "enkripsi itu apa"
+    ],
+    "responses": [
+      "Enkripsi itu cara buat ngubah data biar gak bisa dibaca sembarangan. Cuma yang punya kunci yang bisa baca datanya."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu robotika", "robotika itu apa", "jelasin robotika"
+    ],
+    "responses": [
+      "Robotika itu cabang ilmu yang ngebahas tentang desain, konstruksi, dan pengoperasian robot. Gabungan dari teknik mesin, listrik, sama pemrograman."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu robot", "robot itu apa", "jelasin robot"
+    ],
+    "responses": [
+      "Robot itu mesin yang bisa ngelakuin tugas tertentu, bisa dikendalikan manusia atau otomatis. Bisa dipakai di pabrik, rumah, bahkan luar angkasa."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu sensor robot", "sensor di robot buat apa", "fungsi sensor di robot"
+    ],
+    "responses": [
+      "Sensor itu 'indera' nya robot. Biar robot bisa liat, denger, atau ngerasain lingkungannya. Contohnya sensor cahaya, suara, atau jarak."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu aktuator", "fungsi aktuator di robot", "aktuator robot itu apa"
+    ],
+    "responses": [
+      "Aktuator itu 'otot' nya robot. Ngerubah sinyal listrik jadi gerakan. Contohnya motor servo buat gerakin lengan robot."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu robot otonom", "robot otonom itu apa", "jelasin robot otonom"
+    ],
+    "responses": [
+      "Robot otonom itu robot yang bisa kerja sendiri tanpa dikendalikan langsung. Dia pake sensor dan algoritma buat ambil keputusan."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu robot humanoid", "robot humanoid itu apa", "jelasin robot mirip manusia"
+    ],
+    "responses": [
+      "Robot humanoid itu robot yang bentuk dan gerakannya mirip manusia. Biasanya dipake buat riset atau interaksi sosial."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu robot industri", "robot di pabrik buat apa", "fungsi robot industri"
+    ],
+    "responses": [
+      "Robot industri dipake di pabrik buat kerja berat, kayak ngelas, ngerakit, atau ngangkat barang. Cepet dan presisi banget."
+    ]
+  },
+  {
+    "patterns": [
+      "apa itu ai di robot", "robot pakai ai buat apa", "hubungan ai dan robot"
+    ],
+    "responses": [
+      "AI bikin robot bisa mikir dan belajar, bukan cuma nurut perintah. Jadi robot bisa lebih adaptif dan pintar."
+    ]
+  },
+  {
+    "patterns": [
+      "contoh robot di kehidupan nyata", "robot apa aja sih", "contoh robot"
+    ],
+    "responses": [
+      "Contohnya ada Roomba (robot vacuum), robot pabrik, robot medis kayak da Vinci Surgical System, sampe robot NASA buat eksplor Mars."
+    ]
+  },
+  {
+    "patterns": [
+      "apa manfaat robot", "robot berguna buat apa", "fungsi robot"
+    ],
+    "responses": [
+      "Robot bantu kerja manusia biar lebih cepat, akurat, dan aman. Bisa juga bantu di tempat berbahaya kayak reaktor nuklir atau luar angkasa."
     ]
   }
 ]
