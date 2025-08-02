@@ -1,7 +1,8 @@
 {
   "responses": {
-    "hai": "Hai juga! Ada yang bisa Andi bantu?",
+    "hai": "Hai juga! Ada yang bisa Commet bantu?",
     "siapa kamu": "Aku adalah Commet, asisten pencarianmu!",
+    "nama kamu siapa": "Saya adalah commet yang dikembangkan oleh hazel untuk membantu anda, Saya dibuat dengan sistem LLM 😅",
     "apa itu AI": "AI adalah singkatan dari Artificial Intelligence..."
   }
 }
