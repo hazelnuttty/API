@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "code": "hazel",
+    "gold": 500,
+    "exp": 200,
+    "message": "🎉 Selamat! Kamu berhasil klaim kode spesial Hazel!"
+  },
+  {
+    "code": "valantra",
+    "gold": 300,
+    "exp": 100,
+    "message": "⚔️ Hadiah spesial dari Valantra!"
+  }
+]
