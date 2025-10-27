@@ -82,5 +82,9 @@
   {
     "apikey": "karin inactive",
     "status": "active"
+  },
+  {
+    "apikey": "karin",
+    "status": "active"
   }
 ]
